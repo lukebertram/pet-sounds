@@ -19,7 +19,7 @@
       <div class="row">
         <div class="col-md-4">
           <form id="pet-form">
-            <label class="qtext">Kind of pet:</label>
+            <label class="qtext">Type of pet:</label>
             <select id="pet-type" name="pettype">
               <option value="dog">Dog</option>
               <option value="cat">Cat</option>
@@ -46,27 +46,36 @@
               <input type="number" class="form-control" id="pet-age">
             </div>
             <hr>
-
+            <div class="form-group">
+              <label for="pet-bio">Pet Bio</label>
+              <input type="number" class="form-control" id="pet-bio">
+            </div>
+            <hr>
             <button type="submit" name="button" class="btn btn-secondary">CREATE PET</button>
           </form>
         </div>
         <div class="col-md-4">
           <div class="pet-display">
-            <h1>PLACEHOLDER</h1>
-            <p>bio</p>
-            <ul class="pet-display-full">
-              <img class="pet-img"src="img/placeholder.jpeg" alt="petimg">
-              <li>age</li>
-              <li>type</li>
-              <li>gender</li>
-              <li>type</li>
-            </ul>
+            <div class="card group">
+              <div class="card-body">
+                <h5 class="pet-name">name</h5>
+                <h6 class="pet-type">type</h6>
+                <img src="img/noble.jpeg" alt="holder" class="pet-img">
+                <p class="pet-gender">gender</p>
+                <hr>
+                <p class="pet-age">age</p>
+                <p class="pet-bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exerci</p>
+
+              </div>
+            </div>
           </div>
         </div>
         <div class="col-md-4">
           <div class="pet-list">
             <ul>
-
+              <li>Cyber-Aardvark</li>
+              <li>Horse</li>
+              <li>Terror-dactyl</li>
             </ul>
           </div>
         </div>
