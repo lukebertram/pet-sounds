@@ -11,6 +11,66 @@
   <body>
     <div class="container">
 
+      <div class="jumbotron">
+        <h1>PET HEADER</h1>
+        <p>pet stuff woop</p>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4">
+          <form id="pet-form">
+            <label class="qtext">Kind of pet:</label>
+            <select id="pet-type" name="pettype">
+              <option value="dog">Dog</option>
+              <option value="cat">Cat</option>
+              <option value="lizard">Lizard</option>
+              <option value="minotaur">Minotaur</option>
+            </select>
+            <hr>
+            <label class="qtext">Gender:</label>
+            <select id="pet-gender" name="petgender">
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+            </select>
+            <hr>
+            <div class="form-group">
+              <label for="pet-name">Pet Name</label>
+              <input type="text" class="form-control" id="pet-name">
+            </div>
+            <div class="form-group">
+              <label for="pet-img">Pet Image URL</label>
+              <input type="url" class="form-control" id="pet-pic">
+            </div>
+            <div class="form-group">
+              <label for="pet-age">Pet Age</label>
+              <input type="number" class="form-control" id="pet-age">
+            </div>
+            <hr>
+
+            <button type="submit" name="button" class="btn btn-secondary">CREATE PET</button>
+          </form>
+        </div>
+        <div class="col-md-4">
+          <div class="pet-display">
+            <h1>PLACEHOLDER</h1>
+            <p>bio</p>
+            <ul class="pet-display-full">
+              <img class="pet-img"src="img/placeholder.jpeg" alt="petimg">
+              <li>age</li>
+              <li>type</li>
+              <li>gender</li>
+              <li>type</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="pet-list">
+            <ul>
+
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
