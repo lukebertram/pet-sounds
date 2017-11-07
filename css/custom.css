@@ -1,0 +1,27 @@
+li {
+  list-style: none;
+}
+
+.pet-preview {
+  display: block;
+  width: 10em;
+  height: 10em;
+  background-color: #88f;
+}
+.pet-preview{
+  position: relative;
+  text-align: center;
+  color: #fff;
+}
+.pet-preview img {
+  height: 10em;
+  width: 10em;
+  z-index: 1;
+}
+
+.pet-name {
+  position: absolute;
+  bottom: 2px;
+  left: 10px;
+  z-index: 20;
+}
